@@ -1,0 +1,1676 @@
+{
+  "countries": [
+    {
+      "geoId": "AF",
+      "country_Name": "Afghanistan",
+      "countryterritoryCode": "AFG",
+      "continent": "Asia",
+      "population2019": 38041757,
+      "population_density": 56.93776001
+    },
+    {
+      "geoId": "AL",
+      "country_Name": "Albania",
+      "countryterritoryCode": "ALB",
+      "continent": "Europe",
+      "population2019": 2862427,
+      "population_density": 104.6122628
+    },
+    {
+      "geoId": "DZ",
+      "country_Name": "Algeria",
+      "countryterritoryCode": "DZA",
+      "continent": "Africa",
+      "population2019": 43053054,
+      "population_density": 17.73007507
+    },
+    {
+      "geoId": "AD",
+      "country_Name": "Andorra",
+      "countryterritoryCode": "AND",
+      "continent": "Europe",
+      "population2019": 76177,
+      "population_density": 163.8425532
+    },
+    {
+      "geoId": "AO",
+      "country_Name": "Angola",
+      "countryterritoryCode": "AGO",
+      "continent": "Africa",
+      "population2019": 31825299,
+      "population_density": 24.71305206
+    },
+    {
+      "geoId": "AI",
+      "country_Name": "Anguilla",
+      "countryterritoryCode": "AIA",
+      "continent": "America",
+      "population2019": 14872,
+      "population_density": 167
+    },
+    {
+      "geoId": "AG",
+      "country_Name": "Antigua_and_Barbuda",
+      "countryterritoryCode": "ATG",
+      "continent": "America",
+      "population2019": 97115,
+      "population_density": 218.8318182
+    },
+    {
+      "geoId": "AR",
+      "country_Name": "Argentina",
+      "countryterritoryCode": "ARG",
+      "continent": "America",
+      "population2019": 44780675,
+      "population_density": 16.2585101
+    },
+    {
+      "geoId": "AM",
+      "country_Name": "Armenia",
+      "countryterritoryCode": "ARM",
+      "continent": "Europe",
+      "population2019": 2957728,
+      "population_density": 103.6802248
+    },
+    {
+      "geoId": "AW",
+      "country_Name": "Aruba",
+      "countryterritoryCode": "ABW",
+      "continent": "America",
+      "population2019": 106310,
+      "population_density": 588.0277778
+    },
+    {
+      "geoId": "AU",
+      "country_Name": "Australia",
+      "countryterritoryCode": "AUS",
+      "continent": "Oceania",
+      "population2019": 25203200,
+      "population_density": 3.249129487
+    },
+    {
+      "geoId": "AT",
+      "country_Name": "Austria",
+      "countryterritoryCode": "AUT",
+      "continent": "Europe",
+      "population2019": 8858775,
+      "population_density": 107.2069267
+    },
+    {
+      "geoId": "AZ",
+      "country_Name": "Azerbaijan",
+      "countryterritoryCode": "AZE",
+      "continent": "Europe",
+      "population2019": 10047719,
+      "population_density": 120.2653199
+    },
+    {
+      "geoId": "BS",
+      "country_Name": "Bahamas",
+      "countryterritoryCode": "BHS",
+      "continent": "America",
+      "population2019": 389486,
+      "population_density": 38.52547453
+    },
+    {
+      "geoId": "BH",
+      "country_Name": "Bahrain",
+      "countryterritoryCode": "BHR",
+      "continent": "Asia",
+      "population2019": 1641164,
+      "population_density": 2017.2737
+    },
+    {
+      "geoId": "BD",
+      "country_Name": "Bangladesh",
+      "countryterritoryCode": "BGD",
+      "continent": "Asia",
+      "population2019": 163046173,
+      "population_density": 1239.579312
+    },
+    {
+      "geoId": "BB",
+      "country_Name": "Barbados",
+      "countryterritoryCode": "BRB",
+      "continent": "America",
+      "population2019": 287021,
+      "population_density": 666.6069767
+    },
+    {
+      "geoId": "BY",
+      "country_Name": "Belarus",
+      "countryterritoryCode": "BLR",
+      "continent": "Europe",
+      "population2019": 9452409,
+      "population_density": 46.7287999
+    },
+    {
+      "geoId": "BE",
+      "country_Name": "Belgium",
+      "countryterritoryCode": "BEL",
+      "continent": "Europe",
+      "population2019": 11455519,
+      "population_density": 377.2149273
+    },
+    {
+      "geoId": "BZ",
+      "country_Name": "Belize",
+      "countryterritoryCode": "BLZ",
+      "continent": "America",
+      "population2019": 390351,
+      "population_density": 16.79399386
+    },
+    {
+      "geoId": "BJ",
+      "country_Name": "Benin",
+      "countryterritoryCode": "BEN",
+      "continent": "Africa",
+      "population2019": 11801151,
+      "population_density": 101.8539198
+    },
+    {
+      "geoId": "BM",
+      "country_Name": "Bermuda",
+      "countryterritoryCode": "BMU",
+      "continent": "America",
+      "population2019": 62508,
+      "population_density": 1184.592572
+    },
+    {
+      "geoId": "BT",
+      "country_Name": "Bhutan",
+      "countryterritoryCode": "BTN",
+      "continent": "Asia",
+      "population2019": 763094,
+      "population_density": 19.77752777
+    },
+    {
+      "geoId": "BO",
+      "country_Name": "Bolivia",
+      "countryterritoryCode": "BOL",
+      "continent": "America",
+      "population2019": 11513102,
+      "population_density": 10.48014585
+    },
+    {
+      "geoId": "BQ",
+      "country_Name": "Bonaire, Saint Eustatius and Saba",
+      "countryterritoryCode": "BES",
+      "continent": "America",
+      "population2019": 25983,
+      "population_density": 77.0
+    },
+    {
+      "geoId": "BA",
+      "country_Name": "Bosnia_and_Herzegovina",
+      "countryterritoryCode": "BIH",
+      "continent": "Europe",
+      "population2019": 3300998,
+      "population_density": 64.92048828
+    },
+    {
+      "geoId": "BW",
+      "country_Name": "Botswana",
+      "countryterritoryCode": "BWA",
+      "continent": "Africa",
+      "population2019": 2303703,
+      "population_density": 3.977424876
+    },
+    {
+      "geoId": "BR",
+      "country_Name": "Brazil",
+      "countryterritoryCode": "BRA",
+      "continent": "America",
+      "population2019": 211049519,
+      "population_density": 25.06171624
+    },
+    {
+      "geoId": "VG",
+      "country_Name": "British_Virgin_Islands",
+      "countryterritoryCode": "VGB",
+      "continent": "America",
+      "population2019": 30033,
+      "population_density": 198.68
+    },
+    {
+      "geoId": "BN",
+      "country_Name": "Brunei_Darussalam",
+      "countryterritoryCode": "BRN",
+      "continent": "Asia",
+      "population2019": 433296,
+      "population_density": 81.39696395
+    },
+    {
+      "geoId": "BG",
+      "country_Name": "Bulgaria",
+      "countryterritoryCode": "BGR",
+      "continent": "Europe",
+      "population2019": 7000039,
+      "population_density": 64.70353721
+    },
+    {
+      "geoId": "BF",
+      "country_Name": "Burkina_Faso",
+      "countryterritoryCode": "BFA",
+      "continent": "Africa",
+      "population2019": 20321383,
+      "population_density": 72.19128289
+    },
+    {
+      "geoId": "BI",
+      "country_Name": "Burundi",
+      "countryterritoryCode": "BDI",
+      "continent": "Africa",
+      "population2019": 11530577,
+      "population_density": 435.178271
+    },
+    {
+      "geoId": "KH",
+      "country_Name": "Cambodia",
+      "countryterritoryCode": "KHM",
+      "continent": "Asia",
+      "population2019": 16486542,
+      "population_density": 92.05641287
+    },
+    {
+      "geoId": "CM",
+      "country_Name": "Cameroon",
+      "countryterritoryCode": "CMR",
+      "continent": "Africa",
+      "population2019": 25876387,
+      "population_density": 53.34398891
+    },
+    {
+      "geoId": "CA",
+      "country_Name": "Canada",
+      "countryterritoryCode": "CAN",
+      "continent": "America",
+      "population2019": 37411038,
+      "population_density": 4.075308214
+    },
+    {
+      "geoId": "CV",
+      "country_Name": "Cape_Verde",
+      "countryterritoryCode": "CPV",
+      "continent": "Africa",
+      "population2019": 549936,
+      "population_density": 134.9297767
+    },
+    {
+      "geoId": "KY",
+      "country_Name": "Cayman_Islands",
+      "countryterritoryCode": "CYM",
+      "continent": "America",
+      "population2019": 64948,
+      "population_density": 267.3916667
+    },
+    {
+      "geoId": "CF",
+      "country_Name": "Central_African_Republic",
+      "countryterritoryCode": "CAF",
+      "continent": "Africa",
+      "population2019": 4745179,
+      "population_density": 7.490412212
+    },
+    {
+      "geoId": "TD",
+      "country_Name": "Chad",
+      "countryterritoryCode": "TCD",
+      "continent": "Africa",
+      "population2019": 15946882,
+      "population_density": 12.29173364
+    },
+    {
+      "geoId": "CL",
+      "country_Name": "Chile",
+      "countryterritoryCode": "CHL",
+      "continent": "America",
+      "population2019": 18952035,
+      "population_density": 25.18944607
+    },
+    {
+      "geoId": "CN",
+      "country_Name": "China",
+      "countryterritoryCode": "CHN",
+      "continent": "Asia",
+      "population2019": 1433783692,
+      "population_density": 148.3488333
+    },
+    {
+      "geoId": "CO",
+      "country_Name": "Colombia",
+      "countryterritoryCode": "COL",
+      "continent": "America",
+      "population2019": 50339443,
+      "population_density": 44.74870212
+    },
+    {
+      "geoId": "KM",
+      "country_Name": "Comoros",
+      "countryterritoryCode": "COM",
+      "continent": "Africa",
+      "population2019": 850891,
+      "population_density": 447.2444775
+    },
+    {
+      "geoId": "CG",
+      "country_Name": "Congo",
+      "countryterritoryCode": "COG",
+      "continent": "Africa",
+      "population2019": 5380504,
+      "population_density": 15.35684627
+    },
+    {
+      "geoId": "CR",
+      "country_Name": "Costa_Rica",
+      "countryterritoryCode": "CRI",
+      "continent": "America",
+      "population2019": 5047561,
+      "population_density": 97.91306306
+    },
+    {
+      "geoId": "CI",
+      "country_Name": "Cote_dIvoire",
+      "countryterritoryCode": "CIV",
+      "continent": "Africa",
+      "population2019": 25716554,
+      "population_density": 78.83405346
+    },
+    {
+      "geoId": "HR",
+      "country_Name": "Croatia",
+      "countryterritoryCode": "HRV",
+      "continent": "Europe",
+      "population2019": 4076246,
+      "population_density": 73.077198
+    },
+    {
+      "geoId": "CU",
+      "country_Name": "Cuba",
+      "countryterritoryCode": "CUB",
+      "continent": "America",
+      "population2019": 11333484,
+      "population_density": 108.9995962
+    },
+    {
+      "geoId": "CW",
+      "country_Name": "Curaçao",
+      "countryterritoryCode": "CUW",
+      "continent": "America",
+      "population2019": 163423,
+      "population_density": 370.0
+    },
+    {
+      "geoId": "CY",
+      "country_Name": "Cyprus",
+      "countryterritoryCode": "CYP",
+      "continent": "Europe",
+      "population2019": 875899,
+      "population_density": 128.7083333
+    },
+    {
+      "geoId": "CZ",
+      "country_Name": "Czechia",
+      "countryterritoryCode": "CZE",
+      "continent": "Europe",
+      "population2019": 10649800,
+      "population_density": 137.6028879
+    },
+    {
+      "geoId": "CD",
+      "country_Name": "Democratic_Republic_of_the_Congo",
+      "countryterritoryCode": "COD",
+      "continent": "Africa",
+      "population2019": 86790568,
+      "population_density": 37.08259236
+    },
+    {
+      "geoId": "DK",
+      "country_Name": "Denmark",
+      "countryterritoryCode": "DNK",
+      "continent": "Europe",
+      "population2019": 5806081,
+      "population_density": 138.0673017
+    },
+    {
+      "geoId": "DJ",
+      "country_Name": "Djibouti",
+      "countryterritoryCode": "DJI",
+      "continent": "Africa",
+      "population2019": 973557,
+      "population_density": 41.36842105
+    },
+    {
+      "geoId": "DM",
+      "country_Name": "Dominica",
+      "countryterritoryCode": "DMA",
+      "continent": "America",
+      "population2019": 71808,
+      "population_density": 95.5
+    },
+    {
+      "geoId": "DO",
+      "country_Name": "Dominican_Republic",
+      "countryterritoryCode": "DOM",
+      "continent": "America",
+      "population2019": 10738957,
+      "population_density": 219.9785759
+    },
+    {
+      "geoId": "EC",
+      "country_Name": "Ecuador",
+      "countryterritoryCode": "ECU",
+      "continent": "America",
+      "population2019": 17373657,
+      "population_density": 68.78868175
+    },
+    {
+      "geoId": "EG",
+      "country_Name": "Egypt",
+      "countryterritoryCode": "EGY",
+      "continent": "Africa",
+      "population2019": 100388076,
+      "population_density": 98.87346929
+    },
+    {
+      "geoId": "SV",
+      "country_Name": "El_Salvador",
+      "countryterritoryCode": "SLV",
+      "continent": "America",
+      "population2019": 6453550,
+      "population_density": 309.8814672
+    },
+    {
+      "geoId": "GQ",
+      "country_Name": "Equatorial_Guinea",
+      "countryterritoryCode": "GNQ",
+      "continent": "Africa",
+      "population2019": 1355982,
+      "population_density": 46.66573975
+    },
+    {
+      "geoId": "ER",
+      "country_Name": "Eritrea",
+      "countryterritoryCode": "ERI",
+      "continent": "Africa",
+      "population2019": 3497117,
+      "population_density": 35
+    },
+    {
+      "geoId": "EE",
+      "country_Name": "Estonia",
+      "countryterritoryCode": "EST",
+      "continent": "Europe",
+      "population2019": 1324820,
+      "population_density": 30.38610536
+    },
+    {
+      "geoId": "SZ",
+      "country_Name": "Eswatini",
+      "countryterritoryCode": "SWZ",
+      "continent": "Africa",
+      "population2019": 1148133,
+      "population_density": 67.0
+    },
+    {
+      "geoId": "ET",
+      "country_Name": "Ethiopia",
+      "countryterritoryCode": "ETH",
+      "continent": "Africa",
+      "population2019": 112078727,
+      "population_density": 109.224559
+    },
+    {
+      "geoId": "FK",
+      "country_Name": "Falkland_Islands_(Malvinas)",
+      "countryterritoryCode": "FLK",
+      "continent": "America",
+      "population2019": 3372,
+      "population_density": 0.28
+    },
+    {
+      "geoId": "FO",
+      "country_Name": "Faroe_Islands",
+      "countryterritoryCode": "FRO",
+      "continent": "Europe",
+      "population2019": 48677,
+      "population_density": 34.73996983
+    },
+    {
+      "geoId": "FJ",
+      "country_Name": "Fiji",
+      "countryterritoryCode": "FJI",
+      "continent": "Oceania",
+      "population2019": 889955,
+      "population_density": 48.35703339
+    },
+    {
+      "geoId": "FI",
+      "country_Name": "Finland",
+      "countryterritoryCode": "FIN",
+      "continent": "Europe",
+      "population2019": 5517919,
+      "population_density": 18.15685565
+    },
+    {
+      "geoId": "FR",
+      "country_Name": "France",
+      "countryterritoryCode": "FRA",
+      "continent": "Europe",
+      "population2019": 67012883,
+      "population_density": 122.3383957
+    },
+    {
+      "geoId": "PF",
+      "country_Name": "French_Polynesia",
+      "countryterritoryCode": "PYF",
+      "continent": "Oceania",
+      "population2019": 279285,
+      "population_density": 75.86857923
+    },
+    {
+      "geoId": "GA",
+      "country_Name": "Gabon",
+      "countryterritoryCode": "GAB",
+      "continent": "Africa",
+      "population2019": 2172578,
+      "population_density": 8.224764233
+    },
+    {
+      "geoId": "GM",
+      "country_Name": "Gambia",
+      "countryterritoryCode": "GMB",
+      "continent": "Africa",
+      "population2019": 2347696,
+      "population_density": 225.3065217
+    },
+    {
+      "geoId": "GE",
+      "country_Name": "Georgia",
+      "countryterritoryCode": "GEO",
+      "continent": "Europe",
+      "population2019": 3996762,
+      "population_density": 65.27520207
+    },
+    {
+      "geoId": "DE",
+      "country_Name": "Germany",
+      "countryterritoryCode": "DEU",
+      "continent": "Europe",
+      "population2019": 83019213,
+      "population_density": 237.3709698
+    },
+    {
+      "geoId": "GH",
+      "country_Name": "Ghana",
+      "countryterritoryCode": "GHA",
+      "continent": "Africa",
+      "population2019": 30417858,
+      "population_density": 130.8214292
+    },
+    {
+      "geoId": "GI",
+      "country_Name": "Gibraltar",
+      "countryterritoryCode": "GIB",
+      "continent": "Europe",
+      "population2019": 33706,
+      "population_density": 3371.8
+    },
+    {
+      "geoId": "EL",
+      "country_Name": "Greece",
+      "countryterritoryCode": "GRC",
+      "continent": "Europe",
+      "population2019": 10724599,
+      "population_density": 83.22473235
+    },
+    {
+      "geoId": "GL",
+      "country_Name": "Greenland",
+      "countryterritoryCode": "GRL",
+      "continent": "America",
+      "population2019": 56660,
+      "population_density": 0.136496528
+    },
+    {
+      "geoId": "GD",
+      "country_Name": "Grenada",
+      "countryterritoryCode": "GRD",
+      "continent": "America",
+      "population2019": 112002,
+      "population_density": 327.8058824
+    },
+    {
+      "geoId": "GU",
+      "country_Name": "Guam",
+      "countryterritoryCode": "GUM",
+      "continent": "Oceania",
+      "population2019": 167295,
+      "population_density": 306.9777778
+    },
+    {
+      "geoId": "GT",
+      "country_Name": "Guatemala",
+      "countryterritoryCode": "GTM",
+      "continent": "America",
+      "population2019": 17581476,
+      "population_density": 160.9537794
+    },
+    {
+      "geoId": "GG",
+      "country_Name": "Guernsey",
+      "countryterritoryCode": "GGY",
+      "continent": "Europe",
+      "population2019": 64468,
+      "population_density": 965.0
+    },
+    {
+      "geoId": "GN",
+      "country_Name": "Guinea",
+      "countryterritoryCode": "GIN",
+      "continent": "Africa",
+      "population2019": 12771246,
+      "population_density": 50.52221227
+    },
+    {
+      "geoId": "GW",
+      "country_Name": "Guinea_Bissau",
+      "countryterritoryCode": "GNB",
+      "continent": "Africa",
+      "population2019": 1920917,
+      "population_density": 54.0
+    },
+    {
+      "geoId": "GY",
+      "country_Name": "Guyana",
+      "countryterritoryCode": "GUY",
+      "continent": "America",
+      "population2019": 782775,
+      "population_density": 3.957348235
+    },
+    {
+      "geoId": "HT",
+      "country_Name": "Haiti",
+      "countryterritoryCode": "HTI",
+      "continent": "America",
+      "population2019": 11263079,
+      "population_density": 403.5985486
+    },
+    {
+      "geoId": "VA",
+      "country_Name": "Holy_See",
+      "countryterritoryCode": "VAT",
+      "continent": "Europe",
+      "population2019": 815,
+      "population_density": 924.0
+    },
+    {
+      "geoId": "HN",
+      "country_Name": "Honduras",
+      "countryterritoryCode": "HND",
+      "continent": "America",
+      "population2019": 9746115,
+      "population_density": 85.68703191
+    },
+    {
+      "geoId": "HU",
+      "country_Name": "Hungary",
+      "countryterritoryCode": "HUN",
+      "continent": "Europe",
+      "population2019": 9772756,
+      "population_density": 107.9066055
+    },
+    {
+      "geoId": "IS",
+      "country_Name": "Iceland",
+      "countryterritoryCode": "ISL",
+      "continent": "Europe",
+      "population2019": 356991,
+      "population_density": 3.526922693
+    },
+    {
+      "geoId": "IN",
+      "country_Name": "India",
+      "countryterritoryCode": "IND",
+      "continent": "Asia",
+      "population2019": 1366417756,
+      "population_density": 454.9380726
+    },
+    {
+      "geoId": "ID",
+      "country_Name": "Indonesia",
+      "countryterritoryCode": "IDN",
+      "continent": "Asia",
+      "population2019": 270625567,
+      "population_density": 147.7521901
+    },
+    {
+      "geoId": "IR",
+      "country_Name": "Iran",
+      "countryterritoryCode": "IRN",
+      "continent": "Asia",
+      "population2019": 82913893,
+      "population_density": 50.22242012
+    },
+    {
+      "geoId": "IQ",
+      "country_Name": "Iraq",
+      "countryterritoryCode": "IRQ",
+      "continent": "Asia",
+      "population2019": 39309789,
+      "population_density": 88.53057004
+    },
+    {
+      "geoId": "IE",
+      "country_Name": "Ireland",
+      "countryterritoryCode": "IRL",
+      "continent": "Europe",
+      "population2019": 4904240,
+      "population_density": 70.45298302
+    },
+    {
+      "geoId": "IM",
+      "country_Name": "Isle_of_Man",
+      "countryterritoryCode": "IMN",
+      "continent": "Europe",
+      "population2019": 84589,
+      "population_density": 149.0
+    },
+    {
+      "geoId": "IL",
+      "country_Name": "Israel",
+      "countryterritoryCode": "ISR",
+      "continent": "Asia",
+      "population2019": 8519373,
+      "population_density": 410.5268022
+    },
+    {
+      "geoId": "IT",
+      "country_Name": "Italy",
+      "countryterritoryCode": "ITA",
+      "continent": "Europe",
+      "population2019": 60359546,
+      "population_density": 205.4507479
+    },
+    {
+      "geoId": "JM",
+      "country_Name": "Jamaica",
+      "countryterritoryCode": "JAM",
+      "continent": "America",
+      "population2019": 2948277,
+      "population_density": 270.9930748
+    },
+    {
+      "geoId": "JP",
+      "country_Name": "Japan",
+      "countryterritoryCode": "JPN",
+      "continent": "Asia",
+      "population2019": 126860299,
+      "population_density": 347.0734584
+    },
+    {
+      "geoId": "JE",
+      "country_Name": "Jersey",
+      "countryterritoryCode": "JEY",
+      "continent": "Europe",
+      "population2019": 107796,
+      "population_density": 912.0
+    },
+    {
+      "geoId": "JO",
+      "country_Name": "Jordan",
+      "countryterritoryCode": "JOR",
+      "continent": "Asia",
+      "population2019": 10101697,
+      "population_density": 112.1424983
+    },
+    {
+      "geoId": "KZ",
+      "country_Name": "Kazakhstan",
+      "countryterritoryCode": "KAZ",
+      "continent": "Asia",
+      "population2019": 18551428,
+      "population_density": 6.769825907
+    },
+    {
+      "geoId": "KE",
+      "country_Name": "Kenya",
+      "countryterritoryCode": "KEN",
+      "continent": "Africa",
+      "population2019": 52573967,
+      "population_density": 90.29941666
+    },
+    {
+      "geoId": "XK",
+      "country_Name": "Kosovo",
+      "countryterritoryCode": "XKX",
+      "continent": "Europe",
+      "population2019": 1798506,
+      "population_density": 159.0
+    },
+    {
+      "geoId": "KW",
+      "country_Name": "Kuwait",
+      "countryterritoryCode": "KWT",
+      "continent": "Asia",
+      "population2019": 4207077,
+      "population_density": 232.1722222
+    },
+    {
+      "geoId": "KG",
+      "country_Name": "Kyrgyzstan",
+      "countryterritoryCode": "KGZ",
+      "continent": "Asia",
+      "population2019": 6415851,
+      "population_density": 32.92909281
+    },
+    {
+      "geoId": "LA",
+      "country_Name": "Laos",
+      "countryterritoryCode": "LAO",
+      "continent": "Asia",
+      "population2019": 7169456,
+      "population_density": 30.59578423
+    },
+    {
+      "geoId": "LV",
+      "country_Name": "Latvia",
+      "countryterritoryCode": "LVA",
+      "continent": "Europe",
+      "population2019": 1919968,
+      "population_density": 30.98330653
+    },
+    {
+      "geoId": "LB",
+      "country_Name": "Lebanon",
+      "countryterritoryCode": "LBN",
+      "continent": "Asia",
+      "population2019": 6855709,
+      "population_density": 669.4941349
+    },
+    {
+      "geoId": "LS",
+      "country_Name": "Lesotho",
+      "countryterritoryCode": "LSO",
+      "continent": "Africa",
+      "population2019": 2125267,
+      "population_density": 69.43781291
+    },
+    {
+      "geoId": "LR",
+      "country_Name": "Liberia",
+      "countryterritoryCode": "LBR",
+      "continent": "Africa",
+      "population2019": 4937374,
+      "population_density": 50.03090739
+    },
+    {
+      "geoId": "LY",
+      "country_Name": "Libya",
+      "countryterritoryCode": "LBY",
+      "continent": "Africa",
+      "population2019": 6777453,
+      "population_density": 3.795632381
+    },
+    {
+      "geoId": "LI",
+      "country_Name": "Liechtenstein",
+      "countryterritoryCode": "LIE",
+      "continent": "Europe",
+      "population2019": 38378,
+      "population_density": 236.9375
+    },
+    {
+      "geoId": "LT",
+      "country_Name": "Lithuania",
+      "countryterritoryCode": "LTU",
+      "continent": "Europe",
+      "population2019": 2794184,
+      "population_density": 44.53135138
+    },
+    {
+      "geoId": "LU",
+      "country_Name": "Luxembourg",
+      "countryterritoryCode": "LUX",
+      "continent": "Europe",
+      "population2019": 613894,
+      "population_density": 250.0938272
+    },
+    {
+      "geoId": "MG",
+      "country_Name": "Madagascar",
+      "countryterritoryCode": "MDG",
+      "continent": "Africa",
+      "population2019": 26969306,
+      "population_density": 45.13985562
+    },
+    {
+      "geoId": "MW",
+      "country_Name": "Malawi",
+      "countryterritoryCode": "MWI",
+      "continent": "Africa",
+      "population2019": 18628749,
+      "population_density": 192.4407616
+    },
+    {
+      "geoId": "MY",
+      "country_Name": "Malaysia",
+      "countryterritoryCode": "MYS",
+      "continent": "Asia",
+      "population2019": 31949789,
+      "population_density": 95.96282149
+    },
+    {
+      "geoId": "MV",
+      "country_Name": "Maldives",
+      "countryterritoryCode": "MDV",
+      "continent": "Asia",
+      "population2019": 530957,
+      "population_density": 1718.986667
+    },
+    {
+      "geoId": "ML",
+      "country_Name": "Mali",
+      "countryterritoryCode": "MLI",
+      "continent": "Africa",
+      "population2019": 19658023,
+      "population_density": 15.63501586
+    },
+    {
+      "geoId": "MT",
+      "country_Name": "Malta",
+      "countryterritoryCode": "MLT",
+      "continent": "Europe",
+      "population2019": 493559,
+      "population_density": 1511.03125
+    },
+    {
+      "geoId": "MR",
+      "country_Name": "Mauritania",
+      "countryterritoryCode": "MRT",
+      "continent": "Africa",
+      "population2019": 4525698,
+      "population_density": 4.272163578
+    },
+    {
+      "geoId": "MU",
+      "country_Name": "Mauritius",
+      "countryterritoryCode": "MUS",
+      "continent": "Africa",
+      "population2019": 1269670,
+      "population_density": 623.3019704
+    },
+    {
+      "geoId": "MX",
+      "country_Name": "Mexico",
+      "countryterritoryCode": "MEX",
+      "continent": "America",
+      "population2019": 127575529,
+      "population_density": 64.91462641
+    },
+    {
+      "geoId": "MD",
+      "country_Name": "Moldova",
+      "countryterritoryCode": "MDA",
+      "continent": "Europe",
+      "population2019": 4043258,
+      "population_density": 123.5198035
+    },
+    {
+      "geoId": "MC",
+      "country_Name": "Monaco",
+      "countryterritoryCode": "MCO",
+      "continent": "Europe",
+      "population2019": 33085,
+      "population_density": 19196
+    },
+    {
+      "geoId": "MN",
+      "country_Name": "Mongolia",
+      "countryterritoryCode": "MNG",
+      "continent": "Asia",
+      "population2019": 3225166,
+      "population_density": 2.040608667
+    },
+    {
+      "geoId": "ME",
+      "country_Name": "Montenegro",
+      "countryterritoryCode": "MNE",
+      "continent": "Europe",
+      "population2019": 622182,
+      "population_density": 45.0
+    },
+    {
+      "geoId": "MS",
+      "country_Name": "Montserrat",
+      "countryterritoryCode": "MSF",
+      "continent": "America",
+      "population2019": 4991,
+      "population_density": 50
+    },
+    {
+      "geoId": "MA",
+      "country_Name": "Morocco",
+      "countryterritoryCode": "MAR",
+      "continent": "Africa",
+      "population2019": 36471766,
+      "population_density": 80.72851893
+    },
+    {
+      "geoId": "MZ",
+      "country_Name": "Mozambique",
+      "countryterritoryCode": "MOZ",
+      "continent": "Africa",
+      "population2019": 30366043,
+      "population_density": 37.50853531
+    },
+    {
+      "geoId": "MM",
+      "country_Name": "Myanmar",
+      "countryterritoryCode": "MMR",
+      "continent": "Asia",
+      "population2019": 54045422,
+      "population_density": 82.23861548
+    },
+    {
+      "geoId": "NA",
+      "country_Name": "Namibia",
+      "countryterritoryCode": "NAM",
+      "continent": "Africa",
+      "population2019": 2494524,
+      "population_density": 2.973745582
+    },
+    {
+      "geoId": "NP",
+      "country_Name": "Nepal",
+      "countryterritoryCode": "NPL",
+      "continent": "Asia",
+      "population2019": 28608715,
+      "population_density": 195.9391071
+    },
+    {
+      "geoId": "NL",
+      "country_Name": "Netherlands",
+      "countryterritoryCode": "NLD",
+      "continent": "Europe",
+      "population2019": 17282163,
+      "population_density": 511.4579104
+    },
+    {
+      "geoId": "NC",
+      "country_Name": "New_Caledonia",
+      "countryterritoryCode": "NCL",
+      "continent": "Oceania",
+      "population2019": 282757,
+      "population_density": 15.53938731
+    },
+    {
+      "geoId": "NZ",
+      "country_Name": "New_Zealand",
+      "countryterritoryCode": "NZL",
+      "continent": "Oceania",
+      "population2019": 4783062,
+      "population_density": 18.55417569
+    },
+    {
+      "geoId": "NI",
+      "country_Name": "Nicaragua",
+      "countryterritoryCode": "NIC",
+      "continent": "America",
+      "population2019": 6545503,
+      "population_density": 53.72704836
+    },
+    {
+      "geoId": "NE",
+      "country_Name": "Niger",
+      "countryterritoryCode": "NER",
+      "continent": "Africa",
+      "population2019": 23310719,
+      "population_density": 17.71765059
+    },
+    {
+      "geoId": "NG",
+      "country_Name": "Nigeria",
+      "countryterritoryCode": "NGA",
+      "continent": "Africa",
+      "population2019": 200963603,
+      "population_density": 215.064989
+    },
+    {
+      "geoId": "MK",
+      "country_Name": "North_Macedonia",
+      "countryterritoryCode": "MKD",
+      "continent": "Europe",
+      "population2019": 2077132,
+      "population_density": 82.6
+    },
+    {
+      "geoId": "MP",
+      "country_Name": "Northern_Mariana_Islands",
+      "countryterritoryCode": "MNP",
+      "continent": "Oceania",
+      "population2019": 57213,
+      "population_density": 123.6565217
+    },
+    {
+      "geoId": "NO",
+      "country_Name": "Norway",
+      "countryterritoryCode": "NOR",
+      "continent": "Europe",
+      "population2019": 5328212,
+      "population_density": 14.55491954
+    },
+    {
+      "geoId": "OM",
+      "country_Name": "Oman",
+      "countryterritoryCode": "OMN",
+      "continent": "Asia",
+      "population2019": 4974992,
+      "population_density": 15.6041454
+    },
+    {
+      "geoId": "PK",
+      "country_Name": "Pakistan",
+      "countryterritoryCode": "PAK",
+      "continent": "Asia",
+      "population2019": 216565317,
+      "population_density": 275.2893187
+    },
+    {
+      "geoId": "PS",
+      "country_Name": "Palestine",
+      "countryterritoryCode": "PSE",
+      "continent": "Asia",
+      "population2019": 4981422,
+      "population_density": 758.9845515
+    },
+    {
+      "geoId": "PA",
+      "country_Name": "Panama",
+      "countryterritoryCode": "PAN",
+      "continent": "America",
+      "population2019": 4246440,
+      "population_density": 56.18607748
+    },
+    {
+      "geoId": "PG",
+      "country_Name": "Papua_New_Guinea",
+      "countryterritoryCode": "PNG",
+      "continent": "Oceania",
+      "population2019": 8776119,
+      "population_density": 19.00436338
+    },
+    {
+      "geoId": "PY",
+      "country_Name": "Paraguay",
+      "countryterritoryCode": "PRY",
+      "continent": "America",
+      "population2019": 7044639,
+      "population_density": 17.50835892
+    },
+    {
+      "geoId": "PE",
+      "country_Name": "Peru",
+      "countryterritoryCode": "PER",
+      "continent": "America",
+      "population2019": 32510462,
+      "population_density": 24.99160625
+    },
+    {
+      "geoId": "PH",
+      "country_Name": "Philippines",
+      "countryterritoryCode": "PHL",
+      "continent": "Asia",
+      "population2019": 108116622,
+      "population_density": 357.6883053
+    },
+    {
+      "geoId": "PL",
+      "country_Name": "Poland",
+      "countryterritoryCode": "POL",
+      "continent": "Europe",
+      "population2019": 37972812,
+      "population_density": 124.0358862
+    },
+    {
+      "geoId": "PT",
+      "country_Name": "Portugal",
+      "countryterritoryCode": "PRT",
+      "continent": "Europe",
+      "population2019": 10276617,
+      "population_density": 112.2394535
+    },
+    {
+      "geoId": "PR",
+      "country_Name": "Puerto_Rico",
+      "countryterritoryCode": "PRI",
+      "continent": "America",
+      "population2019": 2933404,
+      "population_density": 360.2201804
+    },
+    {
+      "geoId": "QA",
+      "country_Name": "Qatar",
+      "countryterritoryCode": "QAT",
+      "continent": "Asia",
+      "population2019": 2832071,
+      "population_density": 239.5931955
+    },
+    {
+      "geoId": "RO",
+      "country_Name": "Romania",
+      "countryterritoryCode": "ROU",
+      "continent": "Europe",
+      "population2019": 19414458,
+      "population_density": 84.63984701
+    },
+    {
+      "geoId": "RU",
+      "country_Name": "Russia",
+      "countryterritoryCode": "RUS",
+      "continent": "Europe",
+      "population2019": 145872260,
+      "population_density": 8.822079555
+    },
+    {
+      "geoId": "RW",
+      "country_Name": "Rwanda",
+      "countryterritoryCode": "RWA",
+      "continent": "Africa",
+      "population2019": 12626938,
+      "population_density": 498.6598703
+    },
+    {
+      "geoId": "KN",
+      "country_Name": "Saint_Kitts_and_Nevis",
+      "countryterritoryCode": "KNA",
+      "continent": "America",
+      "population2019": 52834,
+      "population_density": 201.6961538
+    },
+    {
+      "geoId": "LC",
+      "country_Name": "Saint_Lucia",
+      "countryterritoryCode": "LCA",
+      "continent": "America",
+      "population2019": 182795,
+      "population_density": 298.1786885
+    },
+    {
+      "geoId": "VC",
+      "country_Name": "Saint_Vincent_and_the_Grenadines",
+      "countryterritoryCode": "VCT",
+      "continent": "America",
+      "population2019": 110593,
+      "population_density": 282.5897436
+    },
+    {
+      "geoId": "SM",
+      "country_Name": "San_Marino",
+      "countryterritoryCode": "SMR",
+      "continent": "Europe",
+      "population2019": 34453,
+      "population_density": 563.0833333
+    },
+    {
+      "geoId": "ST",
+      "country_Name": "Sao_Tome_and_Principe",
+      "countryterritoryCode": "STP",
+      "continent": "Africa",
+      "population2019": 215048,
+      "population_density": 219.8208333
+    },
+    {
+      "geoId": "SA",
+      "country_Name": "Saudi_Arabia",
+      "countryterritoryCode": "SAU",
+      "continent": "Asia",
+      "population2019": 34268529,
+      "population_density": 15.67665431
+    },
+    {
+      "geoId": "SN",
+      "country_Name": "Senegal",
+      "countryterritoryCode": "SEN",
+      "continent": "Africa",
+      "population2019": 16296362,
+      "population_density": 82.34747832
+    },
+    {
+      "geoId": "RS",
+      "country_Name": "Serbia",
+      "countryterritoryCode": "SRB",
+      "continent": "Europe",
+      "population2019": 6963764,
+      "population_density": 99.0
+    },
+    {
+      "geoId": "SC",
+      "country_Name": "Seychelles",
+      "countryterritoryCode": "SYC",
+      "continent": "Africa",
+      "population2019": 97741,
+      "population_density": 210.3521739
+    },
+    {
+      "geoId": "SL",
+      "country_Name": "Sierra_Leone",
+      "countryterritoryCode": "SLE",
+      "continent": "Africa",
+      "population2019": 7813207,
+      "population_density": 105.987171
+    },
+    {
+      "geoId": "SG",
+      "country_Name": "Singapore",
+      "countryterritoryCode": "SGP",
+      "continent": "Asia",
+      "population2019": 5804343,
+      "population_density": 7952.998418
+    },
+    {
+      "geoId": "SX",
+      "country_Name": "Sint_Maarten",
+      "countryterritoryCode": "SXM",
+      "continent": "America",
+      "population2019": 42389,
+      "population_density": 1261.0
+    },
+    {
+      "geoId": "SK",
+      "country_Name": "Slovakia",
+      "countryterritoryCode": "SVK",
+      "continent": "Europe",
+      "population2019": 5450421,
+      "population_density": 113.2905782
+    },
+    {
+      "geoId": "SI",
+      "country_Name": "Slovenia",
+      "countryterritoryCode": "SVN",
+      "continent": "Europe",
+      "population2019": 2080908,
+      "population_density": 102.6398595
+    },
+    {
+      "geoId": "SO",
+      "country_Name": "Somalia",
+      "countryterritoryCode": "SOM",
+      "continent": "Africa",
+      "population2019": 15442906,
+      "population_density": 23.9234769
+    },
+    {
+      "geoId": "ZA",
+      "country_Name": "South_Africa",
+      "countryterritoryCode": "ZAF",
+      "continent": "Africa",
+      "population2019": 58558267,
+      "population_density": 47.63011978
+    },
+    {
+      "geoId": "KR",
+      "country_Name": "South_Korea",
+      "countryterritoryCode": "KOR",
+      "continent": "Asia",
+      "population2019": 51225321,
+      "population_density": 529.6521036
+    },
+    {
+      "geoId": "SS",
+      "country_Name": "South_Sudan",
+      "countryterritoryCode": "SSD",
+      "continent": "Africa",
+      "population2019": 11062114,
+      "population_density": 20.3
+    },
+    {
+      "geoId": "ES",
+      "country_Name": "Spain",
+      "countryterritoryCode": "ESP",
+      "continent": "Europe",
+      "population2019": 46937060,
+      "population_density": 93.52905826
+    },
+    {
+      "geoId": "LK",
+      "country_Name": "Sri_Lanka",
+      "countryterritoryCode": "LKA",
+      "continent": "Asia",
+      "population2019": 21323734,
+      "population_density": 345.558922
+    },
+    {
+      "geoId": "SD",
+      "country_Name": "Sudan",
+      "countryterritoryCode": "SDN",
+      "continent": "Africa",
+      "population2019": 42813237,
+      "population_density": 20.73
+    },
+    {
+      "geoId": "SR",
+      "country_Name": "Suriname",
+      "countryterritoryCode": "SUR",
+      "continent": "America",
+      "population2019": 581363,
+      "population_density": 3.69225
+    },
+    {
+      "geoId": "SE",
+      "country_Name": "Sweden",
+      "countryterritoryCode": "SWE",
+      "continent": "Europe",
+      "population2019": 10230185,
+      "population_density": 25.00104343
+    },
+    {
+      "geoId": "CH",
+      "country_Name": "Switzerland",
+      "countryterritoryCode": "CHE",
+      "continent": "Europe",
+      "population2019": 8544527,
+      "population_density": 215.5213784
+    },
+    {
+      "geoId": "SY",
+      "country_Name": "Syria",
+      "countryterritoryCode": "SYR",
+      "continent": "Asia",
+      "population2019": 17070132,
+      "population_density": 92.06710777
+    },
+    {
+      "geoId": "TW",
+      "country_Name": "Taiwan",
+      "countryterritoryCode": "CNG1925",
+      "continent": "Asia",
+      "population2019": 23773881,
+      "population_density": 658.0
+    },
+    {
+      "geoId": "TJ",
+      "country_Name": "Tajikistan",
+      "countryterritoryCode": "TJK",
+      "continent": "Asia",
+      "population2019": 9321023,
+      "population_density": 65.57271417
+    },
+    {
+      "geoId": "TH",
+      "country_Name": "Thailand",
+      "countryterritoryCode": "THA",
+      "continent": "Asia",
+      "population2019": 69625581,
+      "population_density": 135.8972068
+    },
+    {
+      "geoId": "TL",
+      "country_Name": "Timor_Leste",
+      "countryterritoryCode": "TLS",
+      "continent": "Asia",
+      "population2019": 1293120,
+      "population_density": 85.27
+    },
+    {
+      "geoId": "TG",
+      "country_Name": "Togo",
+      "countryterritoryCode": "TGO",
+      "continent": "Africa",
+      "population2019": 8082359,
+      "population_density": 145.0467733
+    },
+    {
+      "geoId": "TT",
+      "country_Name": "Trinidad_and_Tobago",
+      "countryterritoryCode": "TTO",
+      "continent": "America",
+      "population2019": 1394969,
+      "population_density": 270.9274854
+    },
+    {
+      "geoId": "TN",
+      "country_Name": "Tunisia",
+      "countryterritoryCode": "TUN",
+      "continent": "Africa",
+      "population2019": 11694721,
+      "population_density": 74.44132338
+    },
+    {
+      "geoId": "TR",
+      "country_Name": "Turkey",
+      "countryterritoryCode": "TUR",
+      "continent": "Asia",
+      "population2019": 82003882,
+      "population_density": 106.9601289
+    },
+    {
+      "geoId": "TC",
+      "country_Name": "Turks_and_Caicos_islands",
+      "countryterritoryCode": "TCA",
+      "continent": "America",
+      "population2019": 38194,
+      "population_density": 39.64736842
+    },
+    {
+      "geoId": "UG",
+      "country_Name": "Uganda",
+      "countryterritoryCode": "UGA",
+      "continent": "Africa",
+      "population2019": 44269587,
+      "population_density": 213.0617345
+    },
+    {
+      "geoId": "UA",
+      "country_Name": "Ukraine",
+      "countryterritoryCode": "UKR",
+      "continent": "Europe",
+      "population2019": 43993643,
+      "population_density": 77.02966735
+    },
+    {
+      "geoId": "AE",
+      "country_Name": "United_Arab_Emirates",
+      "countryterritoryCode": "ARE",
+      "continent": "Asia",
+      "population2019": 9770526,
+      "population_density": 135.6091101
+    },
+    {
+      "geoId": "UK",
+      "country_Name": "United_Kingdom",
+      "countryterritoryCode": "GBR",
+      "continent": "Europe",
+      "population2019": 66647112,
+      "population_density": 274.8273922
+    },
+    {
+      "geoId": "TZ",
+      "country_Name": "United_Republic_of_Tanzania",
+      "countryterritoryCode": "TZA",
+      "continent": "Africa",
+      "population2019": 58005461,
+      "population_density": 63.0
+    },
+    {
+      "geoId": "US",
+      "country_Name": "United_States_of_America",
+      "countryterritoryCode": "USA",
+      "continent": "America",
+      "population2019": 329064917,
+      "population_density": 35.76608858
+    },
+    {
+      "geoId": "VI",
+      "country_Name": "United_States_Virgin_Islands",
+      "countryterritoryCode": "VIR",
+      "continent": "America",
+      "population2019": 104579,
+      "population_density": 305.6485714
+    },
+    {
+      "geoId": "UY",
+      "country_Name": "Uruguay",
+      "countryterritoryCode": "URY",
+      "continent": "America",
+      "population2019": 3461731,
+      "population_density": 19.70802765
+    },
+    {
+      "geoId": "UZ",
+      "country_Name": "Uzbekistan",
+      "countryterritoryCode": "UZB",
+      "continent": "Asia",
+      "population2019": 32981715,
+      "population_density": 77.46920545
+    },
+    {
+      "geoId": "VE",
+      "country_Name": "Venezuela",
+      "countryterritoryCode": "VEN",
+      "continent": "America",
+      "population2019": 28515829,
+      "population_density": 32.73079191
+    },
+    {
+      "geoId": "VN",
+      "country_Name": "Vietnam",
+      "countryterritoryCode": "VNM",
+      "continent": "Asia",
+      "population2019": 96462108,
+      "population_density": 308.1252459
+    },
+    {
+      "geoId": "EH",
+      "country_Name": "Western_Sahara",
+      "countryterritoryCode": "ESH",
+      "continent": "Africa",
+      "population2019": 582458,
+      "population_density": 2.03
+    },
+    {
+      "geoId": "YE",
+      "country_Name": "Yemen",
+      "countryterritoryCode": "YEM",
+      "continent": "Asia",
+      "population2019": 29161922,
+      "population_density": 53.97785291
+    },
+    {
+      "geoId": "ZM",
+      "country_Name": "Zambia",
+      "countryterritoryCode": "ZMB",
+      "continent": "Africa",
+      "population2019": 17861034,
+      "population_density": 23.3414789
+    },
+    {
+      "geoId": "ZW",
+      "country_Name": "Zimbabwe",
+      "countryterritoryCode": "ZWE",
+      "continent": "Africa",
+      "population2019": 14645473,
+      "population_density": 37.32459093
+    }
+  ]
+}
