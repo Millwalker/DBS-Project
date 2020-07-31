@@ -13,6 +13,8 @@ testquery =\
 
 
 
+
+
 # QueryTree, Query Object passed to DB should usually be root node (individual objects are individual nodes)
 class Query:
 
@@ -37,6 +39,7 @@ class Query:
         output = {}
         for d in input_dict_list:
             keys = list(d.keys())
+            keys[-1].replace('\n', '')
             for k in keys:
                 output[k] = []  # initialize output dictionary
             # keys.remove('TABLE_NAME')  # former bandaid fix
@@ -72,6 +75,7 @@ class Query:
 
             # iteration step:
             indices[-1] += 1
+            print(indices)
             for i in list(range(len(indices)))[::-1]:
                 if indices[i] >= sizes[i]:
                     if i == 0:
@@ -167,6 +171,32 @@ class Database:
         parsed = Parser.parse(input)
         parsed.root = self.root  # (so the load function knows where to look for tables
         return parsed.execute()
+
+    # to crate a new table for a .json and include it in the index:
+    def convert(self, file_name, table_name):
+        with open(f'{self.root}/index.txt', 'r') as index_file:
+            lines = index_file.readlines()
+            for line in lines:
+                if line.startswith(table_name):
+                    raise KeyError(f'Table {table_name} already exists!')
+        with open(f'{self.root}/index.txt', 'a') as index_file:
+            dict_list = []
+            with open(f'{self.root}/{file_name}', 'r') as json_file:
+                dict_list = eval(json_file.read().replace('null', 'None')) # another dangerous eval(), oh noes!
+            keylist = list(dict_list[0].keys())
+            keys = functools.reduce(lambda x, y: x+' '+y.replace(' ', '_'), keylist)
+            index_file.write(f'\n{table_name} {keys}')
+            with open(f'{self.root}/{table_name}', 'w') as table_file:
+                stringlist = []
+                for d in dict_list:
+                    s = ''
+                    for key in keylist:
+                        s += f'{str(d[key]).replace(" ", "_")} '
+                    s = s[:-1]+'\n'
+                    stringlist.append(s)
+                table_file.writelines(stringlist)
+
+
 
 
 
@@ -270,12 +300,26 @@ class Parser:
 
 
 
+
+
+
+
 if __name__ == "__main__":
 
     database = Database(test_database)
-    test_query = database.query(testquery)
+    #database.convert('population_density.json', 'POP_DENSITY')
+    #database.convert('original_21_07_20.json', 'COVID')
+    #test_query = database.query(testquery)
 
     #test = project(load('test_db', 'TEST'), ['fav_food'])
     #print (testquery)
 
     #print(test)
+
+    testquery2 = \
+        "SELECT C.geoId, P.density\n" \
+        "FROM COVID C, POP_DENSITY P\n" \
+        "WHERE P.country == C.countriesAndTerritories\n" \
+        "and C.dateRep == '07/04/2020'\n"
+
+    print(database.query(testquery2))
