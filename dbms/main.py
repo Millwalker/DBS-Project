@@ -5,7 +5,7 @@ from typing import List, Union
 
 test_database = "test_db"
 testquery =\
-"SELECT fav_food\n" \
+"SELECT T.fav_food\n" \
 "FROM TEST T, BLUB B\n" \
 "WHERE T.firstname == 'bob'\n" \
 "and T.lastname == 'burnquist'\n"
@@ -18,8 +18,9 @@ class Query:
 
     ########## <relational algebra operations>
     ### (self, input_dicts, parameters) -> output_dict
-    def project(self, input_dict: List[dict], requested_columns: List[str]) -> dict:  # TODO: receives str, not List[str]
+    def project(self, input_dict: List[dict], requested_columns: str) -> dict:  # TODO: receives str, not List[str]
         input_dict = input_dict[0]  # hacky bandaid
+        requested_columns = requested_columns.replace(' ', '').split(',')
         for column in requested_columns:
             try:
                 assert column in input_dict
@@ -28,22 +29,60 @@ class Query:
         return {key: input_dict[key] for key in requested_columns}
 
     def select(self, input_dict_list: List[dict], boolean_expression: str) -> dict:
-
+        # bandaidfix, please revisit and fix properly (something is putting an extra set of [] brackets around the list:
+        input_dict_list = input_dict_list[0]
         # one exponential runtime function, coming right up! (gnarf) (maybe noone notices if we only ever combine 2 tables and noone reads this comment)
         indices = [0]*len(input_dict_list)
         sizes = []  # count of rows in each input_dict
+        output = {}
         for d in input_dict_list:
             keys = list(d.keys())
-            keys.remove('TABLE_NAME')
+            for k in keys:
+                output[k] = []  # initialize output dictionary
+            # keys.remove('TABLE_NAME')  # former bandaid fix
             sizes.append(len(d[keys[0]]))
 
         while True:
+            # do something smart... (?)
+            
+            # create limited dictionary of only the currently considered lines:
+            current_line = {}
+            for i in range(len(indices)):
+                d = input_dict_list[i]
+                keys = list(d.keys())
+                for k in keys:
+                    current_line[k] = d[k][indices[i]]  # initialize placeholder dictionary for the current line
+
+            
+            # make an adjusted copy of boolean_expression (include current indices)
+            adjusted_bool = boolean_expression
+            keys = list(current_line.keys())
+            for key in keys:
+                if key in boolean_expression:
+                    adjusted_bool = adjusted_bool.replace(key, f'current_line["{key}"]')
 
 
 
-        assert 1 == 1
-        # boolean expression as string? -> safe eval?
-        raise NotImplementedError
+            # add row(s) to output dict if adjusted boolean expression evaluates to True
+            # test eval(), please ignore :>
+            if eval(adjusted_bool):
+                for key in keys:
+                    output[key].append(current_line[key])
+
+
+            # iteration step:
+            indices[-1] += 1
+            for i in list(range(len(indices)))[::-1]:
+                if indices[i] >= sizes[i]:
+                    if i == 0:
+                        return output  # final iteration complete!
+                    else:
+                        indices[i-1] += 1
+                        indices[i] = 0
+
+
+
+
 
     def load(self, input_dict: List[dict], table_name: str) -> dict:
         # input_dict stays null
@@ -76,7 +115,7 @@ class Query:
         except FileNotFoundError:
             print(f'Table "{table_name}" not found')
             raise
-        output['TABLE_NAME'] = table_name  # TODO: hacky bandaid fix so the dictionary knows what table it's from gnarf
+        # output['TABLE_NAME'] = table_name  # TODO: hacky bandaid fix so the dictionary knows what table it's from gnarf
         return output
 
     #def group_by(input_dict: dict, group: str) -> dict:
@@ -105,7 +144,8 @@ class Query:
 
     def execute(self) -> dict:
         op = Query.relational_algebra_operations[self.operation]
-        return op(self, [child.execute() for child in self.children], self.parameters)
+        output = op(self, [child.execute() for child in self.children], self.parameters)
+        return output
 
 
 
@@ -192,7 +232,7 @@ class Parser:
                         d['parameter'] = d['parameter'][0:start_index]+d['parameter'][last_index:]
 
 
-        #print(keyword_parameter_dicts)
+        print(keyword_parameter_dicts)
         # STEP 4: create Query-Node for each (keyword, parameter) tuple and connect the nodes
 
         #FROM:
