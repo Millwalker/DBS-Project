@@ -7,6 +7,7 @@ test_database = "test_db"
 testquery =\
 "SELECT T.fav_food\n" \
 "FROM TEST T, BLUB B\n" \
+"INNER JOIN " \
 "WHERE T.firstname == 'bob'\n" \
 "and T.lastname == 'burnquist'\n"
 
@@ -75,7 +76,7 @@ class Query:
 
             # iteration step:
             indices[-1] += 1
-            print(indices)
+            # print(indices)
             for i in list(range(len(indices)))[::-1]:
                 if indices[i] >= sizes[i]:
                     if i == 0:
@@ -83,9 +84,6 @@ class Query:
                     else:
                         indices[i-1] += 1
                         indices[i] = 0
-
-
-
 
 
     def load(self, input_dict: List[dict], table_name: str) -> dict:
@@ -150,8 +148,6 @@ class Query:
         op = Query.relational_algebra_operations[self.operation]
         output = op(self, [child.execute() for child in self.children], self.parameters)
         return output
-
-
 
 
 class Database:
@@ -235,7 +231,11 @@ class Parser:
         from_parameter = [d for d in keyword_parameter_dicts if d['keyword'] == 'FROM'][0]['parameter']
         # TODO : only works with exactly 1 FROM statement (outside nested statements) - probably not an issue
         # (just picks the first FROM it finds)#
-        from_parameters = re.split(',[ ]*', from_parameter)
+        from_parameters = []
+        if "INNER JOIN" in from_parameter:
+            from_parameters = from_parameter.split(" ON ")[0].split(" INNER JOIN ")
+        else:
+            from_parameters = re.split(',[ ]*', from_parameter)
 
         for parameter in from_parameters:
             if " " in parameter:
@@ -270,13 +270,23 @@ class Parser:
         for d in keyword_parameter_dicts:
             if d['keyword'] == 'FROM':
                 from_dict = d
-        from_node = Query('FROM', from_dict['parameter'])
-        # here, we could include nested queries instead of loading tables from stored files (#later)
-        load_nodes = from_dict['parameter'].split(',')
-        load_nodes = [node.replace(' ', '') for node in load_nodes]
-        for node in load_nodes:
-            q = Query('LOAD', node)
-            from_node.children.append(q)
+
+        # handle potential INNER JOIN calls:
+        # ... ?
+        from_node = None
+        if "INNER JOIN" in from_dict['parameter']:
+            params = from_dict['parameter'].split("ON ")[1]
+
+        else:
+            from_node = Query('FROM', "")
+            # here, we could include nested queries instead of loading tables from stored files (#later)
+
+
+            load_nodes = from_dict['parameter'].split(',')
+            load_nodes = [node.replace(' ', '') for node in load_nodes]
+            for node in load_nodes:
+                q = Query('LOAD', node)
+                from_node.children.append(q)
 
         #WHERE:
         where_dict = {}
@@ -318,7 +328,7 @@ if __name__ == "__main__":
 
     testquery2 = \
         "SELECT C.geoId, P.density\n" \
-        "FROM COVID C, POP_DENSITY P\n" \
+        "FROM COVID C INNER JOIN POP_DENSITY P ON C.countriesAndTerritories == P.country\n" \
         "WHERE P.country == C.countriesAndTerritories\n" \
         "and C.dateRep == '07/04/2020'\n"
 
