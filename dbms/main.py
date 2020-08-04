@@ -95,7 +95,7 @@ class Query:
         index_file.close()
         split = []
         for l in lines:
-            split = l.split(' ')
+            split = l.replace('\n', '').split(' ')
             if len(split) >= 1 and split[0] == table_name:
                 break
         if len(split) == 0:
@@ -123,7 +123,68 @@ class Query:
     #def group_by(input_dict: dict, group: str) -> dict:
     #    raise NotImplementedError
 
-    relational_algebra_operations = {'SELECT': project, 'FROM': lambda s, d, p: d, 'LOAD': load, 'WHERE': select}
+    def from_inner(self, input_dict: List[dict], params: str) -> dict:
+        if not params:
+            return input_dict
+        else:
+            # do the inner join!
+
+            # convert dicts to lists of tuples + index
+            dicts_as_lists = []  # ???
+            for d in input_dict:
+                keys = list(d.keys())
+                l = []
+                for i in range(len(d[keys[0]])):
+                    inner_l = []
+                    for k in keys:
+                        inner_l.append(d[k][i])
+                    l.append(inner_l)
+                dicts_as_lists.append({"keys": keys, "list": l})
+
+
+
+
+            # sort tuple lists by key indicated in params
+            params_clean = params.replace(' ', '').split("==")
+
+            for d in dicts_as_lists:
+                for p in params_clean:
+                    if p in d['keys']:
+                        i = d['keys'].index(p)
+                        d['list'].sort(key=lambda x: x[i])
+
+
+            # join lists/dictionaries, assume right side has unique entries *cough*
+            combined_dicts_as_lists = {'keys': [], 'list': []}
+            combined_keys = []
+            for d in dicts_as_lists:
+                combined_keys += d['keys']
+            left_side_key_index = dicts_as_lists[0]['keys'].index(params_clean)[0]
+            right_side_key_index = dicts_as_lists[1]['keys'].index(params_clean)[1]  # dörthe af
+            right_side_index = 0
+            for i in range(len(dicts_as_lists[0]['list'])):
+                while dicts_as_lists[0]['list'][i][left_side_key_index] != dicts_as_lists[1]['list'][right_side_index][right_side_key_index]:
+                    right_side_index += 1
+                combined_l = combined_dicts_as_lists[0]['list'][i] + combined_dicts_as_lists[1]['list'][right_side_index]
+                combined_dicts_as_lists['list'].append(combined_l)
+
+            # remove duplicate column (optional for now)
+
+            output_d = {}
+            for k_i in range(len(combined_keys)):
+                output_d[combined_keys[k_i]] = [combined_dicts_as_lists['list'][i][k_i] for i in range(len(combined_dicts_as_lists['list']))]
+
+            return output_d
+            # recreate dictionaries
+
+
+
+
+
+            # wrap resulting dict in a list (because we suck at being consistent at output types)
+            raise NotImplementedError
+
+    relational_algebra_operations = {'SELECT': project, 'FROM': from_inner, 'LOAD': load, 'WHERE': select}
 
     ########## </relational algebra operations>
 
@@ -256,7 +317,8 @@ class Parser:
         for d in keyword_parameter_dicts:
             if d['keyword'] == "FROM":
                 for aliaslist in aliases:
-                    while d['parameter'].count(aliaslist[0]) > 1:
+                    c = d['parameter'].count(aliaslist[0])
+                    while d['parameter'].count(aliaslist[0]) == c:
                         start_index = d['parameter'].index(aliaslist[0])
                         last_index = start_index + len(aliaslist[0])+1  # +1 error yay (was causing excessive spaces)
                         d['parameter'] = d['parameter'][0:start_index]+d['parameter'][last_index:]
@@ -274,19 +336,20 @@ class Parser:
         # handle potential INNER JOIN calls:
         # ... ?
         from_node = None
+        load_nodes = []
         if "INNER JOIN" in from_dict['parameter']:
-            params = from_dict['parameter'].split("ON ")[1]
-
+            params = from_dict['parameter'].split(" ON ")[1]
+            from_node = Query('FROM', params)
+            load_nodes = from_dict['parameter'].split(" ON ")[0].split(' INNER JOIN ')
         else:
             from_node = Query('FROM', "")
             # here, we could include nested queries instead of loading tables from stored files (#later)
-
-
             load_nodes = from_dict['parameter'].split(',')
-            load_nodes = [node.replace(' ', '') for node in load_nodes]
-            for node in load_nodes:
-                q = Query('LOAD', node)
-                from_node.children.append(q)
+
+        load_nodes = [node.replace(' ', '') for node in load_nodes]
+        for node in load_nodes:
+            q = Query('LOAD', node)
+            from_node.children.append(q)
 
         #WHERE:
         where_dict = {}
